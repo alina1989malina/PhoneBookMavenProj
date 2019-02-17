@@ -19,7 +19,6 @@ public class PhoneBookImpl implements PhoneBook {
         book.put("Иванов И.И.", Arrays.asList("+8 800 2000 500", "+8 800 200 600"));
         book.put("Петров П.П.", Arrays.asList("+8 800 2000 700"));
         book.put("Сидоров С.С.", Arrays.asList("+8 800 2000 800", "+8 800 2000 900", "+8 800 2000 000"));
-        book.put("Sidorov", Arrays.asList("+8 800 2000 800", "+8 800 2000 900", "+8 800 2000 000"));
     }
 
     public static PhoneBookImpl getInstance() {
